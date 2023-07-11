@@ -46,3 +46,22 @@
     padding: 20px;
     width: 100%;
   }
+
+  @media screen and (max-device-width: 800px){
+    header{
+      position: fixed;
+      top: 0;
+    }
+    main{
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      margin-top: 5rem;
+      width: 100vw;
+      position: sticky;
+    }
+   footer{
+    height: 1vh;
+   }
+  }
+  
